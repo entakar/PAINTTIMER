@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFD2E87524475B8700D236DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD2E87424475B8700D236DA /* AppDelegate.swift */; };
+		EFD2E87724475B8700D236DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD2E87624475B8700D236DA /* SceneDelegate.swift */; };
+		EFD2E87924475B8700D236DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD2E87824475B8700D236DA /* ViewController.swift */; };
+		EFD2E87C24475B8700D236DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD2E87A24475B8700D236DA /* Main.storyboard */; };
+		EFD2E87F24475B8700D236DA /* PAINTTIMER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFD2E87D24475B8700D236DA /* PAINTTIMER.xcdatamodeld */; };
+		EFD2E88124475B8C00D236DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD2E88024475B8C00D236DA /* Assets.xcassets */; };
+		EFD2E88424475B8C00D236DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD2E88224475B8C00D236DA /* LaunchScreen.storyboard */; };
+		EFD2E88F24475B8C00D236DA /* PAINTTIMERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD2E88E24475B8C00D236DA /* PAINTTIMERTests.swift */; };
+		EFD2E89A24475B8C00D236DA /* PAINTTIMERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD2E89924475B8C00D236DA /* PAINTTIMERUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD2E88B24475B8C00D236DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD2E86924475B8600D236DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD2E87024475B8600D236DA;
+			remoteInfo = PAINTTIMER;
+		};
+		EFD2E89624475B8C00D236DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD2E86924475B8600D236DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD2E87024475B8600D236DA;
+			remoteInfo = PAINTTIMER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFD2E87124475B8700D236DA /* PAINTTIMER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAINTTIMER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD2E87424475B8700D236DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFD2E87624475B8700D236DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFD2E87824475B8700D236DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFD2E87B24475B8700D236DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD2E87E24475B8700D236DA /* PAINTTIMER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PAINTTIMER.xcdatamodel; sourceTree = "<group>"; };
+		EFD2E88024475B8C00D236DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFD2E88324475B8C00D236DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFD2E88524475B8C00D236DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD2E88A24475B8C00D236DA /* PAINTTIMERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAINTTIMERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD2E88E24475B8C00D236DA /* PAINTTIMERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAINTTIMERTests.swift; sourceTree = "<group>"; };
+		EFD2E89024475B8C00D236DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD2E89524475B8C00D236DA /* PAINTTIMERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAINTTIMERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD2E89924475B8C00D236DA /* PAINTTIMERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAINTTIMERUITests.swift; sourceTree = "<group>"; };
+		EFD2E89B24475B8C00D236DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD2E86E24475B8600D236DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD2E88724475B8C00D236DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD2E89224475B8C00D236DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFD2E86824475B8600D236DA = {
+			isa = PBXGroup;
+			children = (
+				EFD2E87324475B8700D236DA /* PAINTTIMER */,
+				EFD2E88D24475B8C00D236DA /* PAINTTIMERTests */,
+				EFD2E89824475B8C00D236DA /* PAINTTIMERUITests */,
+				EFD2E87224475B8700D236DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD2E87224475B8700D236DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2E87124475B8700D236DA /* PAINTTIMER.app */,
+				EFD2E88A24475B8C00D236DA /* PAINTTIMERTests.xctest */,
+				EFD2E89524475B8C00D236DA /* PAINTTIMERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD2E87324475B8700D236DA /* PAINTTIMER */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2E87424475B8700D236DA /* AppDelegate.swift */,
+				EFD2E87624475B8700D236DA /* SceneDelegate.swift */,
+				EFD2E87824475B8700D236DA /* ViewController.swift */,
+				EFD2E87A24475B8700D236DA /* Main.storyboard */,
+				EFD2E88024475B8C00D236DA /* Assets.xcassets */,
+				EFD2E88224475B8C00D236DA /* LaunchScreen.storyboard */,
+				EFD2E88524475B8C00D236DA /* Info.plist */,
+				EFD2E87D24475B8700D236DA /* PAINTTIMER.xcdatamodeld */,
+			);
+			path = PAINTTIMER;
+			sourceTree = "<group>";
+		};
+		EFD2E88D24475B8C00D236DA /* PAINTTIMERTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2E88E24475B8C00D236DA /* PAINTTIMERTests.swift */,
+				EFD2E89024475B8C00D236DA /* Info.plist */,
+			);
+			path = PAINTTIMERTests;
+			sourceTree = "<group>";
+		};
+		EFD2E89824475B8C00D236DA /* PAINTTIMERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD2E89924475B8C00D236DA /* PAINTTIMERUITests.swift */,
+				EFD2E89B24475B8C00D236DA /* Info.plist */,
+			);
+			path = PAINTTIMERUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD2E87024475B8600D236DA /* PAINTTIMER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD2E89E24475B8C00D236DA /* Build configuration list for PBXNativeTarget "PAINTTIMER" */;
+			buildPhases = (
+				EFD2E86D24475B8600D236DA /* Sources */,
+				EFD2E86E24475B8600D236DA /* Frameworks */,
+				EFD2E86F24475B8600D236DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PAINTTIMER;
+			productName = PAINTTIMER;
+			productReference = EFD2E87124475B8700D236DA /* PAINTTIMER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD2E88924475B8C00D236DA /* PAINTTIMERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD2E8A124475B8C00D236DA /* Build configuration list for PBXNativeTarget "PAINTTIMERTests" */;
+			buildPhases = (
+				EFD2E88624475B8C00D236DA /* Sources */,
+				EFD2E88724475B8C00D236DA /* Frameworks */,
+				EFD2E88824475B8C00D236DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD2E88C24475B8C00D236DA /* PBXTargetDependency */,
+			);
+			name = PAINTTIMERTests;
+			productName = PAINTTIMERTests;
+			productReference = EFD2E88A24475B8C00D236DA /* PAINTTIMERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFD2E89424475B8C00D236DA /* PAINTTIMERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD2E8A424475B8C00D236DA /* Build configuration list for PBXNativeTarget "PAINTTIMERUITests" */;
+			buildPhases = (
+				EFD2E89124475B8C00D236DA /* Sources */,
+				EFD2E89224475B8C00D236DA /* Frameworks */,
+				EFD2E89324475B8C00D236DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD2E89724475B8C00D236DA /* PBXTargetDependency */,
+			);
+			name = PAINTTIMERUITests;
+			productName = PAINTTIMERUITests;
+			productReference = EFD2E89524475B8C00D236DA /* PAINTTIMERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD2E86924475B8600D236DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = tak;
+				TargetAttributes = {
+					EFD2E87024475B8600D236DA = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					EFD2E88924475B8C00D236DA = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = EFD2E87024475B8600D236DA;
+					};
+					EFD2E89424475B8C00D236DA = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = EFD2E87024475B8600D236DA;
+					};
+				};
+			};
+			buildConfigurationList = EFD2E86C24475B8600D236DA /* Build configuration list for PBXProject "PAINTTIMER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD2E86824475B8600D236DA;
+			productRefGroup = EFD2E87224475B8700D236DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD2E87024475B8600D236DA /* PAINTTIMER */,
+				EFD2E88924475B8C00D236DA /* PAINTTIMERTests */,
+				EFD2E89424475B8C00D236DA /* PAINTTIMERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD2E86F24475B8600D236DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD2E88424475B8C00D236DA /* LaunchScreen.storyboard in Resources */,
+				EFD2E88124475B8C00D236DA /* Assets.xcassets in Resources */,
+				EFD2E87C24475B8700D236DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD2E88824475B8C00D236DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD2E89324475B8C00D236DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD2E86D24475B8600D236DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD2E87F24475B8700D236DA /* PAINTTIMER.xcdatamodeld in Sources */,
+				EFD2E87924475B8700D236DA /* ViewController.swift in Sources */,
+				EFD2E87524475B8700D236DA /* AppDelegate.swift in Sources */,
+				EFD2E87724475B8700D236DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD2E88624475B8C00D236DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD2E88F24475B8C00D236DA /* PAINTTIMERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD2E89124475B8C00D236DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD2E89A24475B8C00D236DA /* PAINTTIMERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD2E88C24475B8C00D236DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD2E87024475B8600D236DA /* PAINTTIMER */;
+			targetProxy = EFD2E88B24475B8C00D236DA /* PBXContainerItemProxy */;
+		};
+		EFD2E89724475B8C00D236DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD2E87024475B8600D236DA /* PAINTTIMER */;
+			targetProxy = EFD2E89624475B8C00D236DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD2E87A24475B8700D236DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD2E87B24475B8700D236DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFD2E88224475B8C00D236DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD2E88324475B8C00D236DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD2E89C24475B8C00D236DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFD2E89D24475B8C00D236DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD2E89F24475B8C00D236DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YKRKJA4VT;
+				INFOPLIST_FILE = PAINTTIMER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.PAINTTIMER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFD2E8A024475B8C00D236DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YKRKJA4VT;
+				INFOPLIST_FILE = PAINTTIMER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.PAINTTIMER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFD2E8A224475B8C00D236DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YKRKJA4VT;
+				INFOPLIST_FILE = PAINTTIMERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.PAINTTIMERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAINTTIMER.app/PAINTTIMER";
+			};
+			name = Debug;
+		};
+		EFD2E8A324475B8C00D236DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YKRKJA4VT;
+				INFOPLIST_FILE = PAINTTIMERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.PAINTTIMERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAINTTIMER.app/PAINTTIMER";
+			};
+			name = Release;
+		};
+		EFD2E8A524475B8C00D236DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YKRKJA4VT;
+				INFOPLIST_FILE = PAINTTIMERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.PAINTTIMERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PAINTTIMER;
+			};
+			name = Debug;
+		};
+		EFD2E8A624475B8C00D236DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YKRKJA4VT;
+				INFOPLIST_FILE = PAINTTIMERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.PAINTTIMERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PAINTTIMER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD2E86C24475B8600D236DA /* Build configuration list for PBXProject "PAINTTIMER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD2E89C24475B8C00D236DA /* Debug */,
+				EFD2E89D24475B8C00D236DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD2E89E24475B8C00D236DA /* Build configuration list for PBXNativeTarget "PAINTTIMER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD2E89F24475B8C00D236DA /* Debug */,
+				EFD2E8A024475B8C00D236DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD2E8A124475B8C00D236DA /* Build configuration list for PBXNativeTarget "PAINTTIMERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD2E8A224475B8C00D236DA /* Debug */,
+				EFD2E8A324475B8C00D236DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD2E8A424475B8C00D236DA /* Build configuration list for PBXNativeTarget "PAINTTIMERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD2E8A524475B8C00D236DA /* Debug */,
+				EFD2E8A624475B8C00D236DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFD2E87D24475B8700D236DA /* PAINTTIMER.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFD2E87E24475B8700D236DA /* PAINTTIMER.xcdatamodel */,
+			);
+			currentVersion = EFD2E87E24475B8700D236DA /* PAINTTIMER.xcdatamodel */;
+			path = PAINTTIMER.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFD2E86924475B8600D236DA /* Project object */;
+}
